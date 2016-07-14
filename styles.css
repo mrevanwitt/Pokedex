@@ -10,6 +10,7 @@ header h1 {
 }
 .search {
   text-align: center;
+  margin-bottom: 30px;
 }
 .pokedex {
   height: 100vh;
@@ -17,11 +18,64 @@ header h1 {
 }
 .pokedex-pic {
   height: 90vh;
-  width: 70%;
-  margin: 20px auto 0px auto;
+  width: 100%;
+  margin: 20px auto auto auto;
   border-radius: 25px;
-  background: url(./img/Pokedex.png) no-repeat;
 }
+.pokedex-pic img{
+  width: 100%;
+  height: 100%;
+}
+.poke-image{
+  background: black;
+  width:50%;
+  height: 30vh;
+  z-index: -1;
+}
+.poke-table{
+  padding-right: 20px;
+  padding-top: 5vh;
+  width: 90%;
+  height:70vh;
+  margin:auto;
+  background: rgb(217, 226, 201);
+  align-content: center;
+  border-radius: 10px;
+  align-content: space-between;
+}
+
+.poke-table img{
+  width:50%;
+  height: 60vh;
+}
+
+.poke-table div{
+    width: 50%;
+    margin:auto;
+    height: 60vh;
+    float:right;
+    padding:20px;
+}
+
+.poke-table div p{
+  font-size: 40px;
+  margin-bottom: 65px;
+}
+
+/*.poke-table table{
+  width: 50%;
+  height: 60vh;
+  margin:auto;
+  background: rgb(207, 207, 207);
+  border-radius: 10px;
+  float:right;
+}
+
+.poke-table table th{
+  color:rgb(67, 145, 132);
+  font-size: 30px
+}*/
+
 footer {
   height: 20vh;
   background-color: #fb0505;
