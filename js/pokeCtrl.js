@@ -9,11 +9,10 @@ angular.module('pokedex')
         $scope.pokeType = response.types[0].type.name;
         $scope.pokeName = response.name;
         $scope.pokeId = response.id;
-        //$scope.moves = response.moves;
+        $scope.pokeMoves = response.moves.move.name;
         $scope.height = response.height;
         $scope.weight = response.weight;
-        $scope.exp = response.base_experience
-
+        $scope.exp = response.base_experience;
       });
     };
   });
